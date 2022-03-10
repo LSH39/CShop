@@ -1,0 +1,196 @@
+
+.c-right-inner{
+    width: 850px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    min-height: 600px;
+}
+.admin-table{
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 10px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.admin-table tr{
+    border-bottom: 1px solid #e0e0e0;
+}
+.admin-table tr:first-child{
+    border-bottom: 2px solid #5F755A;
+}
+.admin-table th, .admin-table td{
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+}
+.admin-table th{
+    height: 43px;
+    box-sizing: border-box;
+}
+
+.admin-table td{
+    overflow: auto;
+    word-break: break-all;
+    white-space: nowrap;
+    height: 60px;
+}
+.adtd, #admin-table-title{
+	padding: 10px 5px 10px 5px;
+}
+
+.admin-table td::-webkit-scrollbar {
+    height: 10px;
+}
+.admin-table td::-webkit-scrollbar-thumb {
+    background-color: #ADC2A9;
+    border-radius: 10px;
+}
+.admin-table td::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ADC2A9;
+}
+
+.admin-select {
+    width:100%;
+    height:100%;
+    padding:0 18px 0 2px;
+    font-size: 14px;
+    border:0;
+    -webkit-appearance:none; /* for chrome */
+    -moz-appearance:none; /*for firefox*/
+    appearance:none;
+    box-sizing: border-box;
+    background:transparent;
+}
+.admin-select::-ms-expand{
+    display:none;/*for IE10,11*/
+}
+.select-wrap {
+    height: 28px;
+    border:1px solid #ADC2A9;
+    border-radius: 5px;
+    background:url('/img/admin_table_select.png') no-repeat 97% 50%/16px auto;
+    background-size: 12px 16px;
+}
+.admin-select:focus{
+    outline: none;
+}
+.admin-button-top{
+    margin-top: 20px;
+}
+
+.admin-button{
+    border: 0;
+    border-radius: 3px;
+}
+.admin-button:hover{
+    cursor: pointer;
+}
+
+.admin-button-update{
+    background-color: #5e5e5e;
+    color: #ffffff;
+    width: 100%;
+    height: 30px;
+}
+
+.admin-button-choice{
+    background-color: #e0e0e0;
+    color: #000000;
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.admin-button-dbupdate{
+    background-color: #5F755A;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    float: right;
+}
+.admin-button-dbselect{
+    background-color: #5F755A;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    float: right;
+}
+
+.admin-button-top>form{
+    float: right;
+}
+.date{
+    height: 40px;
+    width: 500px;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.date>img{
+    padding-top: 8px;
+    float: left;
+}
+.date>img:hover{
+    cursor: pointer;
+}
+.date-input{
+    height: 40px;
+    font-size: 24px;
+    color: #5F755A;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    border: 0;
+    
+}
+.date-input:focus{
+    outline: none;
+}
+.date-input:hover{
+    cursor: default;
+}
+#daily{
+    width: 200px;
+}
+#month{
+    width: 200px;
+}
+.period{
+    padding-left: 10px;
+}
+#tilde{
+    height: 40px;
+    padding: 16px 5px 16px 5px;
+}
+#tilde:hover{
+    cursor: default;
+}
+
+.admin-navi {
+	text-align : center;
+}
+
+.admin-navi-ul.pagination > .active > a, 
+.admin-navi-ul.pagination > .active > span, 
+.admin-navi-ul.pagination > .active > a:hover, 
+.admin-navi-ul.pagination > .active > span:hover, 
+.admin-navi-ul.pagination > .active > a:focus, 
+.admin-navi-ul.pagination > .active > span:focus {
+  background-color: #5F755A;
+  border-color : #5F755A;
+  color : #ffffff;
+}
+.admin-navi-ul.pagination>li>a, .admin-navi-ul.pagination>li>span{
+	color : #5F755A;
+}
+
+.page-navi-img{
+    border: 0;
+    padding-top: 8px;
+}

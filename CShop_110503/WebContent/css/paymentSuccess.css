@@ -1,0 +1,50 @@
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.container>div{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 1100px;
+}
+.container>div>div{
+    width: 1000px;
+    height: 500px;
+    border: 5px solid #5F755A;
+    margin: auto;
+    padding: 75px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container>div>div>*{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 0;
+}
+#span1,#span2{
+    font-size: 20px;
+    color: #5F755A;
+}
+#pre2{
+    height: 80px;
+    line-height: 60px;
+    font-size: 32px;
+    background-color: #ADC2A9;
+}
+#pre3{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#myorder-button{
+    border: 0;
+    border-radius: 5px;
+    background-color: #5F755A;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+}
+#myorder-button:hover{
+    cursor: pointer;
+}

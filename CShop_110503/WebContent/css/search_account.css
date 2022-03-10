@@ -1,0 +1,43 @@
+.wrap2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 2em;
+    margin-top: 70px;
+    margin-bottom: 300px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.image-back {
+    width: 146px;
+    height: 146px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    text-align: center;
+    background-size: 76px 76px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    width: 100px;
+    margin-top: 22px;
+    margin-left: 12px;
+}
+
+.btn_div {
+    text-align: center;
+}
+
+.search_btn {
+    width: 500px;
+    height: 55px;
+    background-color: rgb(95, 117, 90);
+    color: white;
+}

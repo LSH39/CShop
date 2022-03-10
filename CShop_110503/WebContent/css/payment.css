@@ -1,0 +1,212 @@
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.container>div{
+	width: 1100px;
+}
+.container>div>p{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+table{
+    width: 1100px;
+    margin-top: 30px;
+}
+
+table>caption{
+    border-bottom: 1px solid #000000;
+    font-size: 24px;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+table th, table td{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.product-table-title{
+    font-size: 18px;
+}
+.product-table-title>th:first-child{
+	text-align: center;
+}
+.product-table-title>th:nth-child(n+2):nth-child(-n+4){
+    width: 170px;
+    text-align: right;
+}
+.product-table-container>td:first-child{
+    width: 170px;
+    text-align: center;
+}
+.product-table-container>td:nth-child(n+3):nth-child(-n+5){
+    width: 170px;
+    text-align: right;
+    font-weight: bold;
+}
+.product-table-container>td>p:nth-child(n+1):nth-child(-n+2){
+    font-weight: bold;
+}
+
+#nojusoupdate{
+    height: 32px;
+    font-size: 14px;
+    float: right;
+    line-height: 45px;
+}
+
+.delivery th{
+    width: 120px;
+    text-align: left;
+}
+.delivery tr:nth-child(4)>th{
+    vertical-align: top;
+}
+.delivery tr:nth-child(4)>td:nth-child(2), .delivery tr:nth-child(5)>td:first-child{
+    width: 100px;
+}
+.delivery label, .pay-left-top label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #5F755A;
+    background-color: #ffffff;
+    border: 2px solid #5F755A;
+    border-radius: 5px;
+    padding: 5px;
+}
+.delivery label:hover, .pay-left-top label:hover{
+    cursor: pointer;
+}
+.pay-left-top label{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+input[name=juso], input[name=payMethod]{
+    display: none;
+}
+input[name=juso]:checked + label, input[name=payMethod]:checked + label{
+    background-color: #5F755A;
+    color: #ffffff;
+}
+
+#deliveryRequest{
+    width: 400px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.point th{
+    width: 170px;
+    text-align: left;
+}
+.point span{
+    color: #5F755A;
+    font-size: 18px;
+    font-weight: bold;
+}
+#usePoint{
+    width: 100px;
+    height: 20px;
+    font-size: 16px;
+    text-align: right;
+    border: 0;
+    border-bottom: 2px solid #5F755A;
+}
+.pay{
+    width: 1100px;
+}
+.pay>tbody>tr, .pay>tbody>tr>td{
+    padding: 0;
+}
+.pay>tbody>tr>td:first-child{
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.pay-left-top, .pay-left-bottom{
+    width: 100%;
+    box-sizing: border-box;
+}
+.pay-right{
+    width: 350px;
+    height: 310px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid #5F755A;
+    box-sizing: border-box;
+}
+.pay-right caption{
+    border: none;
+}
+.pay-left-top th{
+    width: 170px;
+    text-align: left;
+}
+.pay-left-top td{
+    height: 60px;
+}
+.pay-right tr, .pay-right td{
+	height: 47px;
+	line-height: 47px;
+	padding: 15px 25px 15px 25px;
+}
+.pay-right tr:nth-child(n+1):nth-child(-n+3)>td{
+	padding-top : 5px;
+	padding-bottom: 5px;
+}
+.pay-right tr>td:last-child{
+    float: right;
+    padding-left: 0px;
+}
+.pay-right tr>td:first-child{
+    padding-right: 0px;
+}
+#line{
+    float:none;
+    border-top: 2px solid #000000;
+}
+.pay-right tr:last-of-type{
+    font-size: 24px;
+}
+.pay-right tr:last-of-type span{
+    color: #5F755A;
+}
+
+.pay-left-bottom th{
+    text-align: left;
+    padding-bottom: 0px;
+}
+.pay-left-bottom textarea{
+    width: 680px;
+    height: 80px;
+    resize: none;
+    padding: 10px;
+    line-height: 20px;
+}
+form>div>p{
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+form>div>button{
+    margin: auto;
+    display: block;
+    width: 250px;
+    height: 65px;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #5F755A;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+form>div>button:hover{
+    cursor: pointer;
+}

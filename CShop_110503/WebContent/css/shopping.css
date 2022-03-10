@@ -1,0 +1,166 @@
+@charset "UTF-8";
+.list_order {
+    list-style-type: none;
+    padding-top: 10px;
+    border-top: 2px solid #333;
+}
+.order_box {
+    position: relative;
+    margin-top: 10px;
+    padding: 0 20px 20px;
+    border: 1px solid #dddfe1;
+}
+.name {
+    padding: 20px 0 13px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #dddfe1;
+   	color : #5F755A;
+}
+.order_info {
+    overflow: hidden;
+    padding: 14px 0 20px;
+    display: inline; /*table*/
+    width: 100%;
+    table-layout: fixed;
+}
+.order_info dt{
+    float: left;
+    padding-right: 15px;
+    font-size: 12px;
+    color: #000;
+    line-height: 20px;
+}
+.order_info dd {
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700px;
+    color: #000;
+}
+
+.inner_status {
+    display: table-cell;
+    vertical-align: middle;
+}
+.section_orderlist .list_order .order_status .link {
+    display: block;
+    width: 100px;
+    height: 34px;
+    border: 1px solid #5f0080;
+    background-color: #fff;
+    font-size: 12px;
+    color: #5f0080;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+.img {
+    width: 60px;
+    height: auto;
+}
+.thumb {
+	display: flex;
+	align-items :center; 
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+}
+.order_status{
+	display:inline;
+}
+.order_info dl:first-child {
+    padding-top: 20px;
+}
+.order_info dl {
+	margin-bottom : 5px;
+    overflow: hidden;
+    padding-top: 6px;
+}
+*:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.linkbtn {
+    display: block;
+    width: 100px;
+    height: 34px;
+    border: 1px solid #ADC2A9;
+    background-color: #fff;
+    font-size: 12px;
+    color: #ADC2A9;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    /*버튼위치*/
+    position: absolute;
+    left: 700px;
+    top: 100px;
+
+}
+span a:hover{
+	text-decoration: none;
+	background-color: #ADC2A9;
+    font-size: 12px;
+    color: #fff;
+    line-height: 32px;
+}
+.list_order li {
+	clear : left;
+}
+.order_status {
+    display: table-cell;
+    vertical-align: middle;
+}
+.imgPr {
+    padding: 25px 0 24px;
+}
+.trname td {
+	padding-top: 20px;
+	text-align: center; 
+	font-size: 16px;
+}
+.table-primary th {
+	padding-top:20px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+.pointlist p{
+	 color:#5F755A;
+	 font-weight: bold;
+	 font-size: 18px;
+}
+.pr_date {
+	 margin-top:10px;
+	 color:#5F755A;
+	 font-weight: bold;
+	 font-size: 15px;
+}
+.name a {
+	 color:#ddd;
+	 font-weight: bold;
+	 font-size: 18px;
+}
+.name a:hover {
+	 text-decoration: none;
+	 color:#5F755A;
+}
+.list_order li { 
+	 padding-top:10px;
+}
+.pointa {
+	color:#5F755A;
+}
+.starRate{
+	display:none;
+}
+.thumb > img{
+    width: 100%;
+    height: 80%;
+}

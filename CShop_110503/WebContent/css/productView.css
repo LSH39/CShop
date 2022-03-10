@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+/* 상세보기 CSS */
+.container{
+	min-width: 1190px;
+}
+.productBox{
+	overflow: hidden;
+}
+.productImageBox{
+	margin-top : 50px;
+	float: left;
+	margin-right : 50px;
+}
+.productInfoBox{
+	margin-top : 50px;
+}
+#pBrand{
+	font-size : 22px;
+	font-weight: bold;
+}
+#pName{
+	font-size: 35px;
+}
+#pPrice{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#dPrice{
+	font-size: 18px;
+}
+#seller{
+	font-size: 18px;
+	margin-right: 10px;
+}
+#sellerMemo{
+	background-color: #fff;
+	color : #5F755A;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-bottom : 10px;
+	outline:none
+}
+#pSize>button,#pColor>button{
+	font-size : 15px;
+	outline:none;
+	border : 1px solid #a9a9a9;
+	background-color: #fff;
+	color : black;	
+}
+#pColor>button{
+	text-transform:uppercase ;
+}
+
+.pm{
+	font-size : 15px;
+	outline:none;
+	background-color: #fff ;
+	color : black;	
+	width: 40px;
+	font-weight: bold;
+}
+.amount{
+	width:80px;
+	height: 33px;
+	border: 1px solid #a9a9a9;
+	text-align: center;
+}
+.optionSC{
+	font-size: 18px;
+	margin-right: 20px;
+	text-transform:uppercase ;
+}
+.count>span{
+	font-size: 18px;
+}
+#cart, #noCart{
+	margin-top: 35px;
+	width:580px;
+	height: 50px;
+	background-color: #5F755A;
+	color: #fff;
+	font-size: 18px;
+}
+
+.selectMenu{
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align: center;
+	border-bottom: 2px solid #a9a9a9;
+	padding : 10px;
+
+}
+.selectMenu>a{
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+	width:340px;
+	color : black;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+.selectMenu>a:hover{
+	color : #5F755A;
+	text-decoration: none;
+	cursor:pointer
+	
+}
+.selectMenu>a:focus {
+	color : #5F755A;
+	text-decoration: none;	
+}
+.content{
+	margin-top:100px;
+	text-align: center;
+}
+.modal-title{
+	text-align: center;
+}
+#sellersign{
+	margin-left:200px;
+}
+.MemoContent{
+	color : #CD0000;
+}
+
+
+/* 리뷰 CSS */
+
+.reviewTotalBox{
+	width:100%;
+	background-color: #EFEFEF;
+	height: 100px;
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.reviewTotalBox>span{
+	font-size: 30px;
+	display: inline-block;
+	width:550px;
+	text-align: center;
+	line-height: 100px;
+	
+}
+.reviewList{
+	overflow: hidden;
+}
+.reviewInfo{
+	width: 300px;
+	font-size: 15px;
+	float: left;
+	padding-top:20px;
+	padding-left:10px;
+
+}
+.reviewInfo>span{
+	margin-right: 10px;
+		
+}
+.reviewContent{
+	overflow: : hidden
+}
+.reviewContent>span{
+	display:inline-block;
+	width: 410px;
+	height: 130px;
+	overflow: : hidden
+}
+.reviewContent>span:first-child{
+	float: left;
+	padding-top:20px;
+}
+.reviewImg{
+	text-align: right;
+}
+.reviewImg>img:hover{
+	cursor: pointer;
+}
+.reviewMore{
+	margin-top:10px;
+}
+.reviewMore:hover{
+	color : #5F755A;
+	cursor:pointer
+}
+
+.reviewMoreView>div{
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+#moreContent{
+	width:800px;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+.recoment{
+	margin-top: 30px;
+}
+.reviewMoreView>button{
+	text-align: center;
+	margin-top: 20px;
+}
+.recomentInput{
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+#recomentBtn{
+	margint-left:20px;
+	height: 100px;
+	width: 100px;
+	color:#fff;
+	background-color: #5F755A ;
+}
+#recomentBtn:hover{
+	background-color:#5F755A;
+	color: #fff;
+	font-size: 15px;
+}
+.reComent{
+	width:100%;
+	overflow: hidden;
+}
+.reComent>span{
+	padding-left : 20px;
+	line-height: 60px;
+	float: left;
+	font-size: 14px;
+}
+.reComent>span:first-child{
+	
+	font-weight: bold;
+}
+.reComent>div{
+	text-align: right;
+	line-height: 60px;
+	margin-right: 20px;	
+}
+.reRe{
+	font-size:14px;	
+}
+.updel{
+	color: black;
+	font-size:14px;
+}
+.updel:hover{
+	color : #ADC2A9;
+	text-decoration: none;
+	cursor: pointer;
+}
+.updel:focus {
+	color : #ADC2A9;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#btn1,#btn2{
+	width: 65px; 
+	height: 100px; 
+	margin-left:10px; 
+	
+}
+#btn1:hover,#btn2:hover{
+	background-color: #ADC2A9;
+	color:#fff
+}
+
+
+.btn:active, .btn:focus { 
+	outline: none !important; 
+	box-shadow: none !important; 
+}
+
+
+/*QnA CSS*/
+
+.cautionBox{
+	width:100%;
+	background-color: #EFEFEF;
+	height: 80px;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+	padding-left:30px;
+	line-height: 80px;
+}
+
+.cautionBox>span>img{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+#cautionMsg{
+	font-size: 18px;
+	display:inline-block;
+	margin-left:20px;
+}
+.qnaList{
+	border-top : 2px solid black;
+	border-bottom : 2px solid black;
+	padding-top : 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.q1{
+	display:inline-block;
+	width: 150px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.qnaList>span>a{
+	display:inline-block;
+	font-size:14px;
+	color:black;
+	width: 700px;
+}
+.qnaList>span>a:hover{
+	font-size:14px;
+	color:#5F755A ;
+	cursor: pointer;
+}
+.q2{
+	display:inline-block;
+	width:200px;
+}
+.qnaList>hr:last-child {
+	display:none;
+}
+.qnaBtnBox{
+	display:flex;
+}
+.qnaBtn{
+	background-color: #5F755A;
+	color:#fff;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: auto;
+}
+.qnaBtn:hover{
+	background-color: #ADC2A9 ;
+	color:#fff;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: auto;
+}
+.qnaBtn:active, .qnaBtn:focus { 
+	outline: none !important; 
+	box-shadow: none !important; 
+	color : #fff !important; 
+}
+
+.qnaDetailView{
+	margin-top: 20px;
+	background-color: #F7F7F7;
+	padding:50px;
+
+}
+.qnaDetailView span{
+	display:inline-block;
+}
+.questionBox,.answerBox{
+	overflow: hidden;
+}
+
+.qnaDetailView>div>span:first-child {
+	font-size: 30px;
+	margin-right: 40px;
+	font-weight: bold;
+	color:#5F755A;	
+	width:50px;
+	float: left;
+}
+.qbox1,.qbox2{
+	width:950px;
+	font-size:15px;
+	padding-top: 10px;
+
+}
+.answerBox{
+	margin-top: 40px;
+	border-top: 1px solid #B7B7B7;
+	padding-top : 30px;
+	
+}
+.qTBL tr>th{
+	width:80px;
+	padding-right: 10px;
+		
+}
+.qTBL tr{
+	border-top: 1rem solid;
+  	border-bottom: 1rem solid;
+  	border-color: transparent;
+}
+.intputBtn{
+	background-color: #5F755A;
+	color:#fff;
+	margin-top: 15px;
+}
+.modalCautionBox{
+	width:100%;
+	background-color: #EFEFEF;
+	height: 80px;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+	padding-left:30px;
+	line-height: 80px;	
+	padding-top: 10px;
+}
+

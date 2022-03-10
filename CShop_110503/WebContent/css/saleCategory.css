@@ -1,0 +1,39 @@
+.admin-graph{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.admin-graph-main{
+    height: 370px;
+}
+.admin-graph-main>div{
+    width: calc(800px/3);
+    float: left;
+    text-align: center;
+}
+.admin-graph-main>div>div{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.admin-graph-main button{
+    background-color: white;
+    color: #5F755A;
+    border: 2px solid #5F755A;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+}
+.admin-graph-main button:hover{
+    background-color: #5F755A;
+    color: #ffffff;
+}
+.admin-graph-detail{
+    width: 800px;
+    border: 3px solid #5F755A;
+    text-align: center;
+    box-sizing: border-box;
+    height: 400px;
+}

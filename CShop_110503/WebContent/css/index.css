@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+h2{
+	 display:flex;
+	 justify-content:center;
+	 color:#141414 !important;
+	 font-size:36px !important;
+	 font-weight: 900 !important;
+}
+h3{
+	text-align:center;
+	font-weight: 900 !important;
+	line-height:normal !important;
+}
+.bestPlace{
+	 display:flex;
+	 justify-content:center;
+	
+}
+#bestImg{
+	width:360px;
+	height:360px;
+}
+.bestPro a{
+	color:black;
+	text-decoration: none;
+}
+.bestPro a:hover{
+	color:black;
+	text-decoration: none;
+	color:#ADC2A9;
+}
+
+.newPlace{
+	 display:flex;
+	 justify-content:center;
+	
+}
+#newImg{
+	width:275px;
+	height:275px;
+}
+.newPro a{
+	color:black;
+	text-decoration: none;
+}
+.newPro a:hover{
+	color:black;
+	text-decoration: none;
+	color:#ADC2A9;
+}
+.logoPlace{
+	 display:flex;
+	 align-items:center;
+	text-align:center;
+	
+}
+.mainLogo img{
+	width:190px;
+	
+}

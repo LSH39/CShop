@@ -1,0 +1,23 @@
+.admin-table tr:first-child>th:nth-child(1){
+    width: 84px;
+}
+.admin-table tr:first-child>th:nth-child(2){
+    width: 140px;
+}
+.admin-table tr:first-child>th:nth-child(3){
+    width: 84px;
+}
+/*
+.admin-table tr:first-child>th:nth-child(4){
+    
+}
+*/
+.admin-table tr:first-child>th:nth-child(5){
+    width: 84px;
+}
+.admin-table tr:first-child>th:nth-child(6){
+    width: 150px;
+}
+.admin-table tr:first-child>th:nth-child(7){
+    width: 100px;
+}

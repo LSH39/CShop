@@ -1,0 +1,90 @@
+.main {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 3px;
+    padding-top: 143px;
+    padding-bottom: 300px;
+}
+
+.title>h1 {
+    font-family: "bangers";
+    margin-top: 50px;
+    margin-left: 160px;
+    color: rgb(95, 117, 90);
+}
+
+.cart-table>table {
+    width: 860px;
+    margin: 0 auto;
+    border-spacing: 0;
+}
+
+.cart-table th {
+    padding: 10px 0px;
+    font-size: 20px;
+    font-family: "ns_b";
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.cart-table td {
+    font-size: 17px;
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+}
+
+#delevery {
+    border-left: solid 2px #dddddd;
+}
+
+.cart-table tfoot td {
+    padding: 30px;
+    text-align: right;
+}
+
+.price {
+    color: #ae0000;
+    font-family: "ns_b";
+    font-size: 25px;
+}
+
+.button-box {
+    margin: 30px;
+    text-align: center;
+}
+
+.button-box>button {
+    width: 250px;
+    height: 50px;
+    border: 3px solid rgb(95, 117, 90);
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: rgb(95, 117, 90);
+    font-size: 20px;
+}
+
+.button-box>button:hover {
+    color: #ffffff;
+    background-color: rgb(95, 117, 90);
+    cursor: pointer;
+}
+
+.cart-table img {
+    width: 100px;
+    height: 100px;
+}
+#cart_index>th{
+	text-align:center;
+}
+.cartdelete_btn{
+	text-align:center;
+}
+.cartdelete_btn>button{
+	background-color:white;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	text-align:center;
+	padding:0px;
+	
+}

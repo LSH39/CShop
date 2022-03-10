@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/*상품등록 : InputProductInfo.jsp , InputProductCount.jsp*/
+html{
+	height:100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+body>*{
+	width:100%;
+}
+.container{
+	min-width: 900px;
+	flex:1;
+	overflow: visible !important ;
+}
+
+.table th{
+	background-color: #f1f3f4;
+	width:130px;
+}
+#frmCheck{
+	background-color: #5F755A;
+	color : #fff;
+}
+.tablemargin{
+	margin-top : 150px;
+}
+.table{
+	border-bottom : 1px solid #ddd;
+	width: 870px;
+}
+#cancelBtn{
+	border : 2px solid #5F755A;
+	background-color: #fff;
+	color : #5F755A;
+	font-weight: bold;
+}
+.countTb{
+	margin-top : 70px;
+}
+#productContentTd{
+	max-width: 720px;
+}
+
+
+/*상품리스트 : productList.jsp*/
+
+#categoryBox{
+	margin: 0 auto;
+	margin-top : 20px;
+	margin-bottom : 100px;
+	height: 86px;
+	border : none;
+	border-bottom : 1px solid #d3d3d3;
+	text-align : center;
+}
+#categoryBox>a{
+	color : #545454;
+	font-size : 21px;
+	margin-right : 55px;
+	line-height: 86px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color:transparent;
+}
+#categoryBox>a:last-child{
+	margin-right : 0px;
+}
+#categoryBox>a:hover{
+	color : #5F755A;
+	border-bottom : 3px solid #ADC2A9;
+}
+#productView{
+	text-decoration: none;
+	color : #545454;
+}
+.productBigBox{
+	overflow: hidden;
+}
+.productBox{
+ 	float: left;
+ 	width : 380px;
+ 	text-align: center;
+ 	margin-bottom:100px;
+	
+}
+.brand{
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.name{
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 17px;
+}
+.price{
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#pageNavi{
+	text-align: center;
+
+}
+.pImageBox{
+	width:340px;
+	height: 370px;	
+	overflow: hidden;
+	margin: 0px auto;
+}
+#pImage{
+	width:340px;
+	height: 370px;	
+}
+.pImageBox img {
+  transition: all 0.2s linear;
+}
+.pImageBox:hover img {
+  transform: scale(1.1);
+}
+
+
+/*상품조회 : SelectProduct.jsp*/
+
+.productTotal{
+	margin-top:30px;
+	border: 1px solid black;
+	margin-bottom: 50px;
+}
+.productTotal>span{
+	font-size:15px;	
+}
+.productTotal>span:last-child {
+	font-weight: bold;
+}
+.total-table th:first-child{
+	width:8%
+}
+.total-table th:nth-child(3){
+	width:30%;
+}
+.total-table th:last-child{
+	text-align: center;
+}
+.totalInfo td{
+	height: 120px;
+	vertical-align: middle !important;
+}
+.btn:active, .btn:focus { 
+	outline: none !important; 
+	box-shadow: none !important; 
+}
+.totalInfo td:last-child {
+	text-align: center;
+}
+.updateBtn{
+	background-color: #5F755A;
+	color : #fff;
+}
+.updateBtn:hover{
+	background-color: #ADC2A9;
+	color : #fff !important;
+}
+.selectDelBtn{
+	width: 150px;
+}
+.inventory:hover, .selectDelBtn:hover{
+	background-color: #C1C1C1;
+}
+
+.modal-body{
+	text-align: left;
+	font-size: 18px;
+}
+
+
+
+
+
+
+

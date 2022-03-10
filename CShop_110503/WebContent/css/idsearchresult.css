@@ -1,0 +1,39 @@
+.container{
+	min-width: 750px;
+}
+#searchResultBox {
+    border-top: 2px solid black;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+    min-width: 750px;
+    margin-top: 140px;
+}
+
+#searchResultBox div {
+    margin: 30px;
+}
+
+#btn_controll {
+    text-align: center;
+    padding: 50px;
+    min-width: 750px;
+    margin-bottom: 300px;
+}
+
+#btn_controll>button:first-child {
+    margin-right: 20px;
+}
+
+#btn_controll>button:last-child {
+    margin-left: 20px;
+}
+
+#btn_controll>button {
+    width: 300px;
+    min-width: 210px;
+    padding: 16px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    background-color: rgb(95, 117, 90);
+    color: white;
+}

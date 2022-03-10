@@ -1,0 +1,71 @@
+.joinFrm_title {
+    margin-top: 200px;
+    text-align: center;
+    border-top: 3px solid black;
+}
+
+.joinFrm_img {
+    text-align: center;
+    margin-top: 70px;
+    border-top: 2px solid rgba(128, 128, 128, 0.486);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.486);
+}
+
+.joinFrm_img img {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    /* width: 1025px;
+    height: 81px; */
+}
+
+#joinFrm_imgtext {
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#joinFrm_imgtext button {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    line-height: 40px;
+    
+    margin-bottom: 80px;
+    border: 2px solid black;
+}
+
+#joinFrm_imgtext button:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.joinbtn_wrap {
+    text-align: center;
+    min-width: 1050px;
+}
+
+.joinbtn {
+    width: 300px;
+    min-width: 210px;
+    padding: 50px 20px 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+   
+}
+
+.joinbtn a {
+    width: 210px;
+    min-width: 210px;
+    padding: 16px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+     border-radius: 12px;
+}
+.joinbtn a:hober {
+	text-decoration: none;
+}
